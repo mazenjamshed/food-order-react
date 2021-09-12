@@ -1,0 +1,17 @@
+.navbar {
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: khaki;
+
+  &__logo {
+    background: pink;
+    margin-left: 6rem;
+  }
+  &__cart {
+    background: orangered;
+    margin-right: 6rem;
+  }
+}
