@@ -1,0 +1,21 @@
+.menu-item {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background: darkseagreen;
+  border-radius: 0.5rem;
+  border-bottom: 2px solid rgba(214, 210, 210, 0.425);
+  padding: 0.5rem;
+  margin-bottom: 0.6rem;
+
+  &__name {
+    font-weight: bold;
+  }
+  &__ingredients {
+    font-style: italic;
+  }
+  &__price {
+    font-weight: bold;
+    color: orangered;
+  }
+}
