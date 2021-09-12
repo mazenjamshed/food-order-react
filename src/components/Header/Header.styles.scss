@@ -1,0 +1,38 @@
+.header {
+  width: 100%;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  & .bg-img {
+    width: 100%;
+    min-height: 60vh;
+    background-image: url('../../assets/img/header.jpg');
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0%, 100% 70%, 0% 100%);
+  }
+
+  & .textbox {
+    width: 35rem;
+    min-height: 10rem;
+    background: pink;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0.8rem 1.2rem;
+    transform: translateY(-10rem);
+
+    &__heading {
+      font-size: 2rem;
+      margin: 0;
+    }
+    &__content {
+      margin-top: 1rem;
+      font-size: 1.05rem;
+    }
+  }
+}
